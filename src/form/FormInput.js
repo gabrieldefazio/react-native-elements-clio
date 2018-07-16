@@ -9,9 +9,9 @@ import {
   Dimensions,
   Text as NativeText,
 } from 'react-native';
-import colors from '../../../react-native-elements-0.19.1/src/config/colors';
-import normalize from '../../../react-native-elements-0.19.1/src/helpers/normalizeText';
-import ViewPropTypes from '../../../react-native-elements-0.19.1/src/config/ViewPropTypes';
+import colors from '../config/colors';
+import normalize from '../helpers/normalizeText';
+import ViewPropTypes from '../config/ViewPropTypes';
 
 const { width } = Dimensions.get('window');
 
