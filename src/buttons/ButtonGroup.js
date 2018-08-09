@@ -136,7 +136,7 @@ const ButtonGroup = props => {
                 borderTopRightRadius: containerBorderRadius,
               },
               isSelected && {
-                backgroundColor: colors.primary,
+                backgroundColor: platform === "ios" ? "#df8ab4" : "#a34264",
               },
             ]}
           >
